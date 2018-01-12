@@ -4,19 +4,49 @@
 	<title></title>
 </head>
 <body>
-	<h1></h1>
-	<p></p>
+<main>
+	<ul id="scene" data-friction-x="0.1" data-friction-y="0.1" data-scalar-x="25" data-scalar-y="15" data-limit-y="50" class="scene">
+		<li class="layer" data-depth="0.40">
+			<div class="content">
+				<h1 id="title">Site Launching Soon!</h1>
+				<p>We are working hard on our awesome new website. Stay Tuned!</p>
+			</div>
+		</li>
+		<li class="layer" data-depth="1.00">
+			<div class="footer"></div>
+		</li>
+		<li class="layer" data-depth="0.65">
+			<div class="cloud-back">
+				<img src="https://res.cloudinary.com/jasonheecs/image/upload/v1480353347/construction/rocket_cloud_back.svg" alt="Site Launching Soon!"
+				/>
+			</div>
+		</li>
+		<li class="layer" data-depth="0.70">
+			<div class="rocket">
+				<img src="https://res.cloudinary.com/jasonheecs/image/upload/v1480353347/construction/rocket.svg" alt="Site Launching Soon!"
+				/>
+			</div>
+		</li>
+		<li class="layer" data-depth="0.75">
+			<div class="cloud-front">
+				<img src="https://res.cloudinary.com/jasonheecs/image/upload/v1480353347/construction/rocket_cloud_front.svg" alt="Site Launching Soon!"
+				/>
+			</div>
+		</li>
+	</ul>
+	<div class="social">Follow Us:
+		<a class="social__link" href="#">
+			<img src="https://res.cloudinary.com/jasonheecs/image/upload/v1480353347/construction/facebook.svg" alt="Facebook" />
+		</a>
+	</div>
+</main>
 
-	<script>
-	
- - var objects = ['line lineOne', 'line lineTwo', 'line lineThree', 'stand', 'weight', 'cabin', 'arm'] - var n = 0 #content
-h1
-< building /> p Working day and night! #outerCraneContainer .buildings while n
-< 5 div(class=n ++) .crane.craneThree for i in objects
-    div(class=i ) .crane.craneTwo for i in objects div(class=i ) .crane.craneOne for i in objects div(class=i ) a(rel='license'
-    href='http://creativecommons.org/licenses/by-nc-sa/4.0/' id='license' ) img(alt='Creative Commons License' style='border-width:0'
-    src='https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png' )
-	
-	</script>
+<script>
+
+ new Parallax(document.getElementById('scene'));
+
+</script>
+
+
 </body>
 </html>
