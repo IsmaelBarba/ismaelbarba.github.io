@@ -1,0 +1,22 @@
+{
+  "name": "ismaelbarba.github.io",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IsmaelBarba/ismaelbarba.github.io.git"
+  },
+  "author": "Ismael Barba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IsmaelBarba/ismaelbarba.github.io/issues"
+  },
+  "homepage": "https://github.com/IsmaelBarba/ismaelbarba.github.io#readme",
+  "dependencies": {
+    "jquery": "^3.3.0"
+  }
+}
