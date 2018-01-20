@@ -262,15 +262,32 @@ nav a.button-collapse {
     left: -25px;
 }
 
+
+.parallax-container {
+    max-height: 400px;
+}
+
+footer.page-footer {
+    margin-top: 0px !important;
+}
+
+/*  SKILLS   */
+.skills {
+    margin-top: -40px;
+    
+}
+
 .card-avatar .waves-effect {
     text-align: center;
     margin-top: 20px;
+    background-color: #2196F3;
 }
 
 .card-avatar img {
-    height: 150px;
-    width: 150px;
+    height: 250px;
+    width: 250px;
     border-radius: 75px;
+    margin-top: 10px;
 }
 
 .card-avatar .card-content {
@@ -289,10 +306,4 @@ nav a.button-collapse {
     line-height: 30px !important;
 }
 
-.parallax-container {
-    max-height: 400px;
-}
 
-footer.page-footer {
-    margin-top: 0px !important;
-}
