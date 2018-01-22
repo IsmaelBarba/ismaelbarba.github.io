@@ -329,7 +329,24 @@ footer.page-footer {
 }
 
 .ismael {
-    background-color: black;
+    background-color: rgb(0, 102, 255);
     border-style: solid;
     border-color: rgb(0, 102, 255);
+    border-radius: 20px;
+    
+}
+
+.light,
+.page-footer .footer-copyright {
+    font-weight: 300;
+    font-size: 1.2em;
+    
+}
+
+.profile {
+    padding: 0px;
+}
+
+.marine {
+    width: 200px;
 }
